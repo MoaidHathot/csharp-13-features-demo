@@ -10,7 +10,7 @@ public class Demo_03_overload_resolution_00 : IDemo
 		"Params Array".Dump();
 	}
 
-	[OverloadResolutionPriority(1)]
+	// [OverloadResolutionPriority(1)]
 	void OverloadResolution(params IEnumerable<int> arr)
 	{
 		"Params Enumerable".Dump();
